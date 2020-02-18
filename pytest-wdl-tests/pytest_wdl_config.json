@@ -6,7 +6,7 @@
     "cromwell": {
       "java_bin": "/usr/bin/java",
       "java_args": "-Xmx8g",
-      "cromwell_jar_file": "/path/to/cromwell-48.jar"
+      "cromwell_jar_file": "/Users/anichols/Downloads/cromwell-48.jar"
     }
   }
 }
