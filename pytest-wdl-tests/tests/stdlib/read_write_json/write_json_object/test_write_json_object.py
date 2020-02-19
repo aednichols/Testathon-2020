@@ -1,6 +1,6 @@
-def test_read_json_array(workflow_runner):
+def test_write_json_object(workflow_runner):
     workflow_runner(
-        "read_json_array.wdl",
+        "write_json_object.wdl",
         {},
         {
             "result": [
