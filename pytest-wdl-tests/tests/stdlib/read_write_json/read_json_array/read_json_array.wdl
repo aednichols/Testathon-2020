@@ -1,6 +1,6 @@
 version 1.0
 
-workflow read_json_map {
+workflow read_json_array {
   call test_task
 
   output {

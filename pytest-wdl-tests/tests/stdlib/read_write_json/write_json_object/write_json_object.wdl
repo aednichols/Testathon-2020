@@ -1,6 +1,6 @@
 version 1.0
 
-workflow write_json_map {
+workflow write_json_object {
   call test_task
 
   output {
