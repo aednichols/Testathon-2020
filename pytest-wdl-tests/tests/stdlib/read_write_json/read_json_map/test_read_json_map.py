@@ -3,6 +3,6 @@ def test_read_json_map(workflow_runner):
 		"test_read_json_map.wdl",
 		{},
 		{
-			"result": "{\'str\': \'hi\', \'emptystr\': \'\'}"
+			"result": {"str": "hi", "emptystr": ""}
 		}
 	)
