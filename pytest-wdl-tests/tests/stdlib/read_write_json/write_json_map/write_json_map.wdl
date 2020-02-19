@@ -15,10 +15,10 @@ task test_task {
   }
 
   command <<<
-    echo ~{write_json(to_write)}
+    cat ~{write_json(to_write)}
   >>>
 
   output {
-    String output_string = stdout()
+    String output_string = read_string(stdout())
   }
 }
